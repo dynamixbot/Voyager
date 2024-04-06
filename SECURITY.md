@@ -5,7 +5,7 @@ This is the Security Policy for Voyager, in which we will go over full detail of
 ## Version Support Plans
 
 The current plan (drafted by me, @dynamixbot) are to support the versions for as long as we can (without getting in financial trouble). When a new version is released, the old version will be supported until all users have transitioned.
-After that, the version will be depracated and will not work at all. Internal minor updates to the scraper and database will be be added in minor patch updates. Major changes or switches will be added only to the new versions.
+After that, the version will be deprecated and will not work at all. Internal minor updates to the scraper and database will be added in minor patch updates. Major changes or switches will be added only to the new versions.
 Experimental versions will be immediately depracated after a release of a stable version. Any damage or failure to a service relying on experimental versions are not the responsibility of GetVoyager, Snarple or any affiliates.
 
 ## Vulnerability discovery and fixing
