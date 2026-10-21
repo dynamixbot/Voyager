@@ -4,9 +4,7 @@ This is the Security Policy for Voyager, in which we will go over full detail of
 
 ## Version Support Plans
 
-The current plan (drafted by me, @dynamixbot) are to support the versions for as long as we can (without getting in financial trouble). When a new version is released, the old version will be supported until all users have transitioned.
-After that, the version will be deprecated and will not work at all. Internal minor updates to the scraper and database will be added in minor patch updates. Major changes or switches will be added only to the new versions.
-Experimental versions will be immediately depracated after a release of a stable version. Any damage or failure to a service relying on experimental versions are not the responsibility of GetVoyager, Snarple or any affiliates.
+Plan 2.0, as on 21st of October, 2026, is to have a channel release format. Voyager undergoes 3 release channels similar to Chrome for updates: Canary, Beta, Stable. Each channel undergoes a different update cycle and frequency, with varying orders of stability. This branch (Canary) is the most experimental and unstable branch. Developers post updates and features most frequently here, but it is not stable and will have issues. By using Voyager Canary builds, as per the same licensing clause via GNU AGPL v3, the publisher holds no liability and provides no warranty upon using this build. Canary is only for those who want to check out experimental features and want to submit changes to Voyager. Canary is the only build of Voyager that will merge active pull requests. This is the only version where raised PRs can be merged by developers as well. Canary versions are deprecated as soon as the next build comes out.
 
 ## Vulnerability discovery and fixing
 
