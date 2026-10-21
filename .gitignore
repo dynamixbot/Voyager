@@ -1,21 +1,25 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# Always ignore environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.embed
+*.env
 
-# Test binary, built with `go test -c`
-*.test
+# Framework and Language-specific configurations
+config.json
+config.py
+secrets.yml
+secrets.json
+credentials.json
+*.pem
+*.key
+*.pkcs12
+*.pfx
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# IDE or Editor secret stores
+.serverless/
+.bloop/
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
-
-# Go workspace file
-go.work
+# developer note: this is only to prevent secrets from being tracked, update later for language specs.
